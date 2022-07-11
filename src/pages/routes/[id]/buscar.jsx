@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useRouter } from 'next/router'
 
 export default function buscar() {
@@ -10,6 +11,13 @@ export default function buscar() {
     return (
         <>
            <h1>Router {codigo} Buscar!!!</h1>
+
+            <h1>Escolha para onde deseje ir</h1>
+           
+            <Link href="/routes/params"> 
+                    <li>Params</li>
+            </Link>
+
         </>
     )
 }
