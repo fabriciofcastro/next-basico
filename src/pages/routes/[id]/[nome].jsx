@@ -15,19 +15,19 @@ export default function nome() {
 
            <ul>
                  <Link href="/routes/12233/buscar"> 
-                    <li>Rotas dinâmicas</li>
+                    <li><a>Rotas dinâmicas</a></li>
+                </Link>
+
+                <Link href="/routes/indexx"> 
+                    <li><a>Rotas /indexx</a></li>
                 </Link>
 
                 <Link href="/routes/12233/buscar"> 
-                    <li>Rotas dinâmicas</li>
-                </Link>
-
-                <Link href="/routes/12233/buscar"> 
-                    <li>Rotas dinâmicas</li>
+                    <li><a>Rotas dinâmicas</a></li>
                 </Link>
 
                 <Link href="/routes/id/id"> 
-                    <li>Rotas dinâmicas page id</li>
+                    <li><a>Rotas dinâmicas page id</a></li>
                 </Link>
 
            </ul>
