@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function nome() {
 
-    const router = useRouter()
+    const router = useRouter()  
     const codigo = router.query.id
     const nome = router.query.nome
 
